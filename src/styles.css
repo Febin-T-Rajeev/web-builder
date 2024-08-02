@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    overflow:hidden;
+  }
+  
+  
+  #gjs {
+    border: 3px solid #444;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .gjs-cv-canvas {
+    width: 100%;
+  
+  }
+  
+  .gjs-block {
+    width: auto;
+    height: auto;
+    min-height: auto;
+  }
+  
+  .panel__top {
+    padding: 0;
+    z-index: 10; /* Ensure it sits above other elements */
+  
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+  }
+  
+  .panel__basic-actions {
+    position: initial;
+  }
+  
+  .panel__switcher {
+    position: initial;
+  }
+  
+  .editor-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    height: 100vh;
+  }
+  
+  .editor-canvas {
+    flex-grow: 1;
+  }
+  
+  .panel__right {
+    height: 100%;
+    flex-basis: 230px;
+    position: relative;
+    overflow-y: auto;
+  }
+  .panel__devices {
+    position: initial;
+  }
+  
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  /* Add this CSS to your styles.css */
+  
+  .block-container {
+    
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust column size and number of columns */
+    gap: 10px; /* Space between blocks */
+    padding: 10px; /* Space around the grid */
+    padding-top: 40px;
+    box-sizing: border-box;
+  }
+  
+  
+  .layers-container {
+    
+  
+    padding-top: 40px;
+  
+  }
+  
+  .styles-container {
+    
+  
+    padding-top: 40px;
+  
+  }
+  
+  .taits-container {
+    
+  
+    padding-top: 40px;
+  
+  }
+  
+  .gjs-block {
+    display: flex;
+    flex-basis: 45%;
+    height: 90px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+     /* Border for blocks */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box;
+  }
+  
+  /* Example class names, adjust according to your actual class names */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
